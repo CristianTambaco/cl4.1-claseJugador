@@ -4,6 +4,7 @@ public class jugador {
     String nombre;
     int edad;
     String pais;
+    int saltos=0;
 
 
 
@@ -21,11 +22,15 @@ public class jugador {
 
 
 // metodo vacío,(imprimir)
-    public void patear() {
+    public void patear(int p) {
+        int pp;
+        pp = 2;
+        pp = pp+p;
         System.out.println("El jugador "+ nombre +
                             ", de edad "+ edad +
                             " pais "+ pais +
                             " patea la pelota");
+        System.out.println("El jugador ha tenido " + pp   );
 
 
     }
