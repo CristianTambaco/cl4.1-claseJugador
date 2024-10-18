@@ -12,6 +12,7 @@ public class llamarClase {
         jugador2.patear(4);
         jugador2.saltar();
 
+
     }
 
 }
