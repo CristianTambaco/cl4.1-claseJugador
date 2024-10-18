@@ -15,7 +15,7 @@ public class jugador {
     }
 
 
-    // metodos vacíos,(imprimir)
+    // metodos vacíos propios,(imprimir)
     public void patear(int p) {
         int pateos;
         pateos = 2;
